@@ -6,10 +6,10 @@ body {
 }
 
 header {
-  border-bottom: solid 2px rgb(42, 122, 228);
+  border-bottom: solid 2px rgb(255, 0, 13);
   padding: 20px;
   font-size: 32px;
-  color: rgb(42, 122, 228);
+  color:  rgb(255, 0, 13);
 }
 
 section {
@@ -39,8 +39,6 @@ section {
   justify-content: center;
 }
 
-/* código omitido */
-
 section {
   padding-left: 20px;
   padding-right: 20px;
@@ -51,4 +49,28 @@ section {
   padding-top: 80px;
   display: flex;
   justify-content: center;
+}
+.categoria-videos{
+  display: flex;
+ overflow-x: auto; 
+gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-videos img {
+  opacity:0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 2px solid rgb(0, 99, 248)
+}
+.categoria h2 {
+  color:  rgb(255, 0, 13);
+
 }
